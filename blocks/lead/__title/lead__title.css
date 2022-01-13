@@ -1,16 +1,10 @@
 .lead__title {
-    
+    margin: 0 auto;
+    padding-top: 56px;
 }
 
-/*
-@media screen and (min-width: 1024px) {
-    .lead__title {
-        padding-top: 56px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .lead__title {
        padding-top: 48px; 
     }
-} */
+}
