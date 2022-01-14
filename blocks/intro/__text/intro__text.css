@@ -1,3 +1,5 @@
 .intro__text {
     color: white;
+    display: flex;
+    max-width: 60%;
 }

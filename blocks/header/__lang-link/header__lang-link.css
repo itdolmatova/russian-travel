@@ -1,14 +1,10 @@
 .header__lang-link {
     color: #FFFFFF;
-    width: 30px;
+    width: 29px;
     height: 28px;
     margin: 0;
     padding: 0 18px 0 0;
-}
-
-.header__lang-link_text-decoration_none {
     text-decoration: none;
-    width: 29px;
 }
 
 .header__lang-link:last-of-type {
@@ -17,11 +13,6 @@
 
 @media screen and (max-width: 425px) {
     .header__lang-link {
-        width: 22px;
-        height: 20px;
-    }
-
-    .header__lang-link_text-decoration_none {
         width: 22px;
         height: 20px;
     }
