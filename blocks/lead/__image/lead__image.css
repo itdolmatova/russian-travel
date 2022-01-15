@@ -3,6 +3,7 @@
     /*max-height: 615px; */
     margin: 0 auto;
     padding: 64px 148px 0;
+    border: 1px solid red;
 }
 
 @media screen and (max-width: 1279px) {

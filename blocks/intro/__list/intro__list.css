@@ -2,13 +2,43 @@
     list-style-type: none;
     color: white;
     margin: 0;
-    padding-top: 33px;
+    padding: 0;
     font-size: 12px;
-    line-height: 18px;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
+.intro__list:first-of-type {
+    padding-top: 33px;
+}
+
+@media screen and (max-width: 1279px) {
+    .intro__list {
+        width: 67%;
+        padding-left: 48px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__list {
+        width: 94%;
+        padding: 88px 24px 0 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__list {
+      width: 92%;
+      padding: 72px 20px 0 20px;
+    }
+}
 @media screen and (max-width: 425px) {
     .intro__list {
+        width: 90%;
+        padding: 64px 16px 0 16px;
+    }
+    
+    .intro__list:first-of-type {
         padding-top: 34px;
     }
 }
