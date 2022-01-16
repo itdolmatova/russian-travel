@@ -4,6 +4,7 @@
     margin: 0 auto;
     padding: 64px 148px 0;
     border: 1px solid red;
+    color: white;
 }
 
 @media screen and (max-width: 1279px) {
