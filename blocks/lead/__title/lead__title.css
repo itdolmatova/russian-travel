@@ -2,8 +2,7 @@
     margin: 0 auto;
     padding: 56px 0 0;
     /*max-width: 720px;*/
-    max-width: 56%;
-    color: #FFFFFF;
+    max-width: calc(100% - 560px);
     font-size: 96px;
     font-weight: 900;
     line-height: 1.04;
@@ -13,25 +12,25 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .lead__title {
        padding-top: 48px;
-       max-width: 70%;
+       max-width: calc(100% - 304px);
     }
 }
 @media screen and (min-width: 768px) and (max-width : 1023px) {
     .lead__title {
-       max-width: 93%;
+       max-width: calc(100% - 48px);
     }
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
     .lead__title {
-        max-width: 91,5%;
+        max-width: calc(100% - 40px);
     }
 }
 
 @media screen and (max-width: 424px) {
     .lead__title {
         /*max-width: 288px;*/
-        max-width: 90%;
+        max-width: calc(100% - 32px);
         font-size: 40px;
         line-height: 1.1;
     }
