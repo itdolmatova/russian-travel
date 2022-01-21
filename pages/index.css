@@ -39,9 +39,10 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__background/cover__background.css);
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
+
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__links-list/footer__link-list.css);
+@import url(../blocks/footer/__link/);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
