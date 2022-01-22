@@ -6,3 +6,10 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+@media screen and (max-width: 767px) {
+    .footer__links-list {
+      flex-direction: column;
+    }
+  }
