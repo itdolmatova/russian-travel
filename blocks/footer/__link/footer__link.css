@@ -5,18 +5,13 @@
     line-height: 1.12;
     font-weight: 400;
     margin: 0;
-    padding: 0 18px 0 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 767px) {
     .footer__link {
         font-size: 20px;
         line-height: 1;
-        padding: 0 0 32px 0;
-    }
-
-    .footer__link:last-of-type {
-        padding-bottom: 0; 
     }
 }
 
