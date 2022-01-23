@@ -27,8 +27,7 @@
         max-width: 720px;
         padding-left: 20px;
         padding-right: 20px;
-        font-size: 32px;
-        line-height: 1.09;
+        font-size: 36px;
     }
 }
 
@@ -37,6 +36,7 @@
         max-width: 392px;
         padding-left: 16px;
         padding-right: 16px;
-
+        font-size: 32px;
+        line-height: 1.09;
     }
 }
