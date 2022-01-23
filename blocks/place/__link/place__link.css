@@ -6,4 +6,10 @@
     line-height: 1.12;
     margin: 0;
     padding: 12px 0 0;
+    opacity: 1;
+    transition: opacity 0.5s ease-in 0s;
+}
+
+.place__link:hover {
+    opacity: 0.8;
 }

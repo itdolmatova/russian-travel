@@ -1,18 +1,21 @@
-.place__website {
+.place__description {
+    grid-area: description;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    grid-area: website;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
 }
+
 @media screen and (max-width: 767px) {
-    .place__website {    
+    .place__description {    
         padding-left: 20px;
         padding-right: 20px;
     }
 }
 
 @media screen and (max-width: 424px) {
-    .place__website {
+    .place__description {
         padding-left: 16px;
         padding-right: 16px;
 
