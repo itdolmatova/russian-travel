@@ -3,11 +3,10 @@
     padding: 92px 48px 0;
     max-width: 1600px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    box-sizing: border-box;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .cover {
         padding-left: 0;
         padding-right: 0;
