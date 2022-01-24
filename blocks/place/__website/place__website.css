@@ -4,8 +4,9 @@
     justify-content: flex-end;
     grid-area: website;
 }
+
 @media screen and (max-width: 767px) {
-    .place__website {    
+    .place__website {
         padding-left: 20px;
         padding-right: 20px;
     }

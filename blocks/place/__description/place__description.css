@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .place__description {    
+    .place__description {
         padding-left: 20px;
         padding-right: 20px;
     }

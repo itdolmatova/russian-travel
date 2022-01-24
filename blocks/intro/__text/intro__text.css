@@ -15,12 +15,12 @@
 
 @media screen and (max-width: 767px) {
     .intro__text {
-      max-width: 404px;
+        max-width: 404px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .intro__text {
-      max-width: 288px;
+        max-width: 288px;
     }
 }
